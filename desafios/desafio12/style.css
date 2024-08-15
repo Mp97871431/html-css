@@ -5,6 +5,16 @@
     margin: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Moderustic:wght@300..800&family=Sue+Ellen+Francisco&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Moderustic:wght@300..800&family=Sue+Ellen+Francisco&display=swap');
+
+:root{
+     --fonte1: verdana , geneva, tahoma, sans-serif ;
+     --fonte2: 'Moderustic' 'cursive';
+     --fonte3: 'Edu VIC WA NT Beginner' 'cursive'
+}
+
 html body{
     background-color: darkgrey;
     min-height: 100vh;
@@ -15,11 +25,13 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 3vw;
 }
 
 header h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
 }
 header p{
     padding-bottom: 50px;
@@ -39,6 +51,8 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3vw;
 }
 
 section.norma{
@@ -53,5 +67,6 @@ section.imagem{
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.253);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
