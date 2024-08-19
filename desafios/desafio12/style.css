@@ -1,19 +1,9 @@
-@charset "UTF-8";
 
 *{
     padding: 0px;
     margin: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Moderustic:wght@300..800&family=Sue+Ellen+Francisco&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Moderustic:wght@300..800&family=Sue+Ellen+Francisco&display=swap');
-
-:root{
-     --fonte1: verdana , geneva, tahoma, sans-serif ;
-     --fonte2: 'Moderustic' 'cursive';
-     --fonte3: 'Edu VIC WA NT Beginner' 'cursive'
-}
 
 html body{
     background-color: white;
@@ -80,15 +70,17 @@ section.imagem > p{
 }
 
 section#im01{
-    background-image: url('../desafio12/imagens/background001.jpg');
+    background-image: url('background001.jpg');
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section#im02{
-    background-image: url('../desafio12/imagens/background002.jpg');
+    background-image: url('background002.jpg');
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
