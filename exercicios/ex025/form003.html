@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Texte de Formularios</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="inome">Usuario:</label>
+            <input type="text" name="nome" id="inome" required placeholder="nome de usuario">
+        </p>
+        <p>
+            <label for="inota">Nota da Prova</label>
+            <input type="number" name="nota" id="inota" required placeholder="nota" min="0" max="10" step="0.1">
+        </p>
+        <p>
+            <label for="idata">Data da prova</label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+        <label for="ihora">Hora da Prova</label>
+        <input type="time" name="hora" id="ihora" required>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
