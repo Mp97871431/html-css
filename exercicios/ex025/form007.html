@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iseleção">escolha o estado</label>
+                <select name="seleção" id="iseleção">
+                    <option value="SP">São paulo</option>
+                    <option value="MG">minas gerais</option>
+                    <option value="BA">Bahia</option>
+                    <option value="RJ">rio de janeiro</option>
+                </select>
+        </p>
+       
+
+        <p>
+            <label for="itrabalho">escolha a profisão</label>
+            <input type="text" name="trabalho" id="itrabalho" list="trab">
+            <datalist id="trab">
+                <option >programador</option>
+                <option >operador</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="iescreva">escreva sua menssagem</label><br>
+            <textarea name="escreva" id="iescreva"></textarea>
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+        
+    </form>
+    
+</body>
+</html>
