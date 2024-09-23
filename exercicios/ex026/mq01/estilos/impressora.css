@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+menu{
+    display: none;
+}
+main{
+    width: 100vh;
+}
+
+article::after{
+    content: 'este modelo é desemvolvido para empresora';
+}
